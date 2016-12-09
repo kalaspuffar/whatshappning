@@ -21,6 +21,12 @@ let server = http.createServer(function (req, res) {
     res.setHeader('Content-Type', 'application/json');
     res.setHeader('Cache-Control', 'no-cache, no-store');
     res.end(JSON.stringify(sysInfo[url.slice(6)]()));
+  } else if (url == '/webhook') {
+    fs.readFile('./static/static_response.json', function (err, data) {
+      res.setHeader('Content-Type', 'application/json');
+      res.setHeader('Cache-Control', 'no-cache, no-store');
+      res.end(data);
+    });
   } else {
     fs.readFile('./static' + url, function (err, data) {
       if (err) {
