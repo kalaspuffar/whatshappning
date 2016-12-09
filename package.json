@@ -4,6 +4,7 @@
   "description": "Checks what's happning in the world",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/kalaspuffar/whatshappning/issues"
   },
-  "homepage": "https://github.com/kalaspuffar/whatshappning#readme"
+  "homepage": "https://github.com/kalaspuffar/whatshappning#readme",
+  "dependencies": {
+    "http": "0.0.0"
+  }
 }
