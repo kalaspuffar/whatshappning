@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "name": "whatshappning",
   "version": "0.0.1",
   "description": "Checks what's happning in the world",
@@ -16,4 +17,16 @@
     "url": "https://github.com/kalaspuffar/whatshappning/issues"
   },
   "homepage": "https://github.com/kalaspuffar/whatshappning#readme"
+=======
+  "name": "openshift-cartridge-nodejs-template",
+  "version": "1.0.1",
+  "description": "Custom Node.js cartridge for OpenShift - sample application",
+  "private": true,
+  "main": "start.js",
+  "scripts": {
+    "start": "node --use_strict start.js"
+  },
+  "author": "Ionut-Cristian Florescu <ionut.florescu@gmail.com>",
+  "license": "ISC"
+>>>>>>> b1e4b89fbfd18748e7847a5a6fcd1b31036bbc97
 }
